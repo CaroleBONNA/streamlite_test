@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import numpy as np
-import maplotlib.pyplot as plt
-
+import matplotlib.pyplot as plt
 st.title('Analyse de corrélation et de distribution')
 
 link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
