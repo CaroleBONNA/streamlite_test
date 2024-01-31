@@ -26,11 +26,11 @@ fig, ax = plt.subplots()
 sns.heatmap(df_car_filtre.select_dtypes('number').corr(), cmap="vlag", annot=True, ax=ax)
 st.pyplot(fig)
 
-st.write("Ananlyse du poids / puissance moteur ")
+st.write("Analyse du poids / puissance moteur ")
 
 st.scatter_chart(data=df_car_filtre, x='weightlbs', y='cubicinches')
 
-st.write("Ananlyse du poids / hp ")
+st.write("Analyse du poids / hp ")
 
 st.line_chart(data=df_car_filtre, x='weightlbs', y='hp')
 
